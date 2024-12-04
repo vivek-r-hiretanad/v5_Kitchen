@@ -7,15 +7,15 @@ import { useNavigate } from 'react-router-dom';
 const PlaceOrder = () => {
   const { getTotalCartamount, token, food_list, cartitem, url } = useContext(Storecontext);
   const [data, setData] = useState({
-    firstname: "",
-    lastname: "",
-    email: "",
-    street: "",
-    city: "",
-    state: "",
-    zipcode: "",
-    country: "",
-    phone: ""
+    firstname: " Table",
+    lastname: "1",
+    email: " Table1@gmail.com",
+    street: " Kengeri",
+    city: " Bangalore",
+    state: " Karnataka",
+    zipcode: "566052 ",
+    country: "India",
+    phone: "12352"
   });
 
   const onChangeHandler = (event) => {
@@ -110,4 +110,5 @@ const PlaceOrder = () => {
 };
 
 export default PlaceOrder;
+
 
